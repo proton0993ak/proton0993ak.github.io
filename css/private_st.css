@@ -46,7 +46,9 @@ img{
     max-width: 100%;
 }
 
-.header, .header_news {
+.header, .header_news,
+.header_news_global
+{
     height: 53vh;
 }
 
@@ -253,9 +255,6 @@ img{
 /* private_contact.html styles */
 
 
-.header-group__mod{
-    width: 10%;
-}
 
 
 .text-items .s-primary{
@@ -366,6 +365,10 @@ img{
 
     .header-group__mod{
         width: 12%;
+    }
+
+    .header-group__mod{
+        width: 32%;
     }
 }
 
